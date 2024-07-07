@@ -1,0 +1,115 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #efefef;
+}
+
+.banner {
+	background-color: rgb(253, 242, 209);
+	width: 100%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+
+	display: flex; justify-content: center;
+}
+
+.social {
+	text-decoration: none;
+}
+
+footer {
+	background-color: #fff;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.rounded {
+	border-radius: 10px;
+}
+
+.shadow {
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.value {
+	color: #066aff;
+	font-weight: bolder;
+	font-size: 2em;
+	margin-bottom: 0;
+}
+
+.arrows {
+	width: 60px;
+	height: 72px;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+	bottom: 20px;
+}
+
+.arrows path {
+	stroke: #333;
+	fill: transparent;
+	stroke-width: 1px;
+	animation: arrow 2s infinite;
+	-webkit-animation: arrow 2s infinite;
+}
+
+@keyframes arrow {
+	0% {
+		opacity: 0
+	}
+
+	40% {
+		opacity: 1
+	}
+
+	80% {
+		opacity: 0
+	}
+
+	100% {
+		opacity: 0
+	}
+}
+
+@-webkit-keyframes arrow
+
+/*Safari and Chrome*/
+	{
+	0% {
+		opacity: 0
+	}
+
+	40% {
+		opacity: 1
+	}
+
+	80% {
+		opacity: 0
+	}
+
+	100% {
+		opacity: 0
+	}
+}
+
+.arrows path.a1 {
+	animation-delay: -1s;
+	-webkit-animation-delay: -1s;
+	/* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+	animation-delay: -0.5s;
+	-webkit-animation-delay: -0.5s;
+	/* Safari 和 Chrome */
+}
+
+.arrows path.a3 {
+	animation-delay: 0s;
+	-webkit-animation-delay: 0s;
+	/* Safari 和 Chrome */
+}
